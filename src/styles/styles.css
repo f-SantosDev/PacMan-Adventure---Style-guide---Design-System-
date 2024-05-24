@@ -1172,6 +1172,15 @@ body::-webkit-scrollbar{
     width: 500px;
 }
 
+.point-24-eXt__position{
+    display: flex;
+    justify-content: right;
+    position:absolute;
+    top: 1380px;
+    left:50%;
+    width: 500px;
+}
+
 .point-24__position{
     display: flex;
     justify-content: right;
