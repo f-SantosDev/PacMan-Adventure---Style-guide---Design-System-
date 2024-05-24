@@ -657,13 +657,27 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:fixed;
-    bottom: 143px;
+    bottom: 115px;
     left:50%;
     width: 435px;
     text-align: right;
-    z-index: 3;
-    
+    z-index: 3; 
 }
+
+.pacman__say__target{
+    display: flex;
+    justify-content: right;
+    position:fixed;
+    bottom: 25px;
+    left:50%;
+    width: 535px;
+    text-align: right;
+    z-index: 3; 
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke-color: transparent;
+}
+
 
 .pacman__say__position:hover{
     bottom: 105px;
@@ -673,21 +687,19 @@ body::-webkit-scrollbar{
 .packman__say {
     width: 0px;
     height: 0px;
-    
 }
 
 .packman__say:hover {
-    background-color: white;
+    background-color: rgb(255,255,255);
     width: 100px;
     height: 60px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(0,0,0);
     border-radius: 30px 30px 5px 30px;
-    
 }
 
 .packman__say p{
-    font-size: 90.5px;
+    font-size: 80px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bolder;
     color: transparent;
