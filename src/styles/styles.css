@@ -373,7 +373,8 @@ body::-webkit-scrollbar{
 .drawingPin__title__position{
     position: absolute;
     top: 145px;
-    width: 275px;
+    left: 50%;
+    width: 80px;
     text-align: right;
     z-index: 1;
 }
@@ -386,10 +387,11 @@ body::-webkit-scrollbar{
 .postItAdventure__position{
     position: absolute;
     top: 145px;
-    width: 355px;
+    left: 50%;
+    width: 150px;
     display: flex;
     justify-content: right;
-    z-index: 0;
+    z-index: 1;
 }
 
 .postItAdventure {
@@ -409,7 +411,8 @@ body::-webkit-scrollbar{
 .drawingPin__position{
     position: absolute;
     top: 495px;
-    width: 955px;
+    left: 50%;
+    width: 430px;
     text-align: right;
     z-index: 1;
 }
@@ -422,7 +425,8 @@ body::-webkit-scrollbar{
 .postIt__position{
     position: absolute;
     top: 490px;
-    width: 1015px;
+    left: 50%;
+    width: 500px;
     display: flex;
     justify-content: right;
     z-index: 1;
@@ -534,8 +538,8 @@ body::-webkit-scrollbar{
 .git__position{
     position:absolute;
     top: 640px;
-    left: auto;
-    width: 450px;
+    left: 25%;
+    width: 250px;
     z-index: 1;
     display: flex;
     justify-content: right;
@@ -692,7 +696,6 @@ body::-webkit-scrollbar{
     text-align: center;
     border: 2px solid rgb(0,0,0);
     border-radius: 30px 30px 5px 30px;
-    cursor: wait;
 }
 
 .packman__say p{
@@ -1722,3 +1725,4 @@ table {
     display: flex;
     justify-content: center;
 }
+
