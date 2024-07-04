@@ -243,7 +243,8 @@ body::-webkit-scrollbar{
 
 .section__score__life{
     position:absolute;
-    top: 140px;
+    /*top: 140px;*/
+    top: 155px;
     left:50%;
     width: 450px;
     text-align: right;
@@ -385,7 +386,8 @@ body::-webkit-scrollbar{
 
 .postItAdventure__position{
     position: absolute;
-    top: 145px;
+    /*top: 145px;*/
+    top: 160px;
     width: 355px;
     display: flex;
     justify-content: right;
@@ -727,7 +729,8 @@ body::-webkit-scrollbar{
 
 .fruit8Bit__position{
     position:absolute;
-    top: 2395px;
+    /*top: 2395px;*/
+    top: 2410px;
     right:50%;
     width: 433px;
     text-align: right;
@@ -742,7 +745,8 @@ body::-webkit-scrollbar{
 
 .fruit8Bit2__position{
     position:absolute;
-    top: 2395px;
+    /*top: 2395px;*/
+    top: 2410px;
     right:50%;
     width: 515px;
     text-align: right;
@@ -757,7 +761,8 @@ body::-webkit-scrollbar{
 
 .pacMAn8Bit__position{
     position:absolute;
-    top: 1243px;
+    /*top: 1243px;*/
+    top: 1258px;
     right:50%;
     width: 185px;
     text-align: left;
@@ -797,7 +802,8 @@ body::-webkit-scrollbar{
 
 .Apple8Bit__position{
     position:absolute;
-    top: 1243px;
+    /*top: 1243px;*/
+    top: 1258px;
     right:50%;
     width: 23px;
     text-align: left;
@@ -824,7 +830,8 @@ body::-webkit-scrollbar{
 
 .ghostBlinky8Bit__position{
     position:absolute;
-    top: 142px;
+    /*top: 142px;*/
+    top: 152px;
     right:50%;
     width: 300px;
     text-align: left;
@@ -841,10 +848,12 @@ body::-webkit-scrollbar{
         transform: translatex(780px);
     }
     50% {
-        transform: translatey(550px) translatex(780px);
+        /*transform: translatey(550px) translatex(780px);*/
+        transform: translatey(555px) translatex(780px);
     }
     75% {
-        transform: translatex(-220px) translatey(550px);
+        /*transform: translatex(-220px) translatey(550px);*/
+        transform: translatex(-220px) translatey(555px);
     }
     100% {
         transform: translatey(0px) translatex(-220px);
@@ -853,7 +862,8 @@ body::-webkit-scrollbar{
 
 .ghostClyde8Bit__position{ /* cleyde */
     position:absolute;
-    top: 2543px;
+    /*top: 2543px;*/
+    top: 2556px;
     left:50%;
     width: 545px;
     text-align: right;
@@ -896,34 +906,42 @@ body::-webkit-scrollbar{
 
 @keyframes movePinky {
     0% {
-        transform: translatey(0px);
+        transform: translatey(-5px);
     }
     10% {
-        transform: translatey(795px);
+        /*transform: translatey(795px);*/
+        transform: translatey(808px);
     }
     20% {
-        transform: translatey(795px) translateX(985px);
+        /*transform: translatey(795px) translateX(985px);*/
+        transform: translatey(808px) translateX(985px);
     }
     30% {
-        transform: translateX(985px) translatey(1905px);
+        /*transform: translateX(985px) translatey(1905px);*/
+        transform: translateX(985px) translatey(1918px);
     }
     40% {
-        transform: translatey(1905px) translateX(-10px) ;
+        /*transform: translatey(1905px) translateX(-10px) ;*/
+        transform: translatey(1918px) translateX(-5px);
     }
     50% {
-        transform: translateX(-10px) translatey(795px);
+        /*transform: translateX(-10px) translatey(795px);*/
+        transform: translateX(-5px) translatey(808px);
     }
     60% {
-        transform: translatey(795px) translateX(985px);
+        /*transform: translatey(795px) translateX(985px);*/
+        transform: translatey(808px) translateX(985px);
     }
     70% {
-        transform: translateX(985px) translatey(1905px);
+        /*transform: translateX(985px) translatey(1905px);*/
+        transform: translateX(985px) translatey(1918px);
     }
     80% {
-        transform: translatey(1905px) translateX(-10px) ;
+        /*transform: translatey(1905px) translateX(-10px);*/
+        transform: translatey(1918px) translateX(-5px);
     }
     90% {
-        transform: translateX(-10px) translatey(2600px);
+        transform: translateX(-5px) translatey(2600px);
     }
     95% {
         transform: translatey(2600px);
@@ -935,7 +953,8 @@ body::-webkit-scrollbar{
 
 .ghostInky8Bit__position{ /* ynk */
     position:absolute;
-    top: 1803px;
+    /*top: 1803px;*/
+    top: 1818px;
     left:50%;
     width: 300px;
     text-align: right;
@@ -952,10 +971,12 @@ body::-webkit-scrollbar{
         transform: translatex(-750px);
     }
     50% {
-        transform: translatey(550px) translatex(-750px);
+        /*transform: translatey(550px) translatex(-750px);*/
+        transform: translatey(555px) translatex(-750px);
     }
     75% {
-        transform: translatex(250px) translatey(550px);
+        /*transform: translatex(250px) translatey(550px);*/
+        transform: translatex(250px) translatey(555px);
     }
     100% {
         transform: translatey(0px) translatex(250px);
@@ -971,7 +992,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 500px;
 }
@@ -980,7 +1002,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 250px;
 }
@@ -989,7 +1012,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 300px;
 }
@@ -998,7 +1022,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 350px;
 }
@@ -1007,7 +1032,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 400px;
 }
@@ -1016,7 +1042,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 450px;
 }
@@ -1025,7 +1052,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 150px;
 }
@@ -1034,7 +1062,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 725px;
+    /*top: 725px;*/
+    top: 735px;
     left:50%;
     width: 100px;
 }
@@ -1043,7 +1072,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 530px;
+    /*top: 530px;*/
+    top: 540px;
     right:50%;
     width: 465px;
 }
@@ -1052,7 +1082,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 580px;
+    /*top: 580px;*/
+    top: 590px;
     right:50%;
     width: 465px;
 }
@@ -1061,7 +1092,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 630px;
+    /*top: 630px;*/
+    top: 640px;
     right:50%;
     width: 465px;
 }
@@ -1070,7 +1102,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 670px;
+    /*top: 670px;*/
+    top: 680px;
     left:50%;
     width: 500px;
 }
@@ -1079,7 +1112,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 780px;
+    /*top: 780px;*/
+    top: 790px;
     left:50%;
     width: 500px;
 }
@@ -1088,7 +1122,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 830px;
+    /*top: 830px;*/
+    top: 840px;
     left:50%;
     width: 500px;
 }
@@ -1097,7 +1132,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 880px;
+    /*top: 880px;*/
+    top: 890px;
     left:50%;
     width: 500px;
 }
@@ -1106,7 +1142,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 930px;
+    /*top: 930px;*/
+    top: 940px;
     left:50%;
     width: 500px;
 }
@@ -1115,7 +1152,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 980px;
+    /*top: 980px;*/
+    top: 990px;
     left:50%;
     width: 500px;
 }
@@ -1124,7 +1162,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1030px;
+    /*top: 1030px;*/
+    top: 1040px;
     left:50%;
     width: 500px;
 }
@@ -1133,7 +1172,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1080px;
+    /*top: 1080px;*/
+    top: 1090px;
     left:50%;
     width: 500px;
 }
@@ -1142,7 +1182,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1130px;
+    /*top: 1130px;*/
+    top: 1140px;
     left:50%;
     width: 500px;
 }
@@ -1151,7 +1192,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1180px;
+    /*top: 1180px;*/
+    top: 1190px;
     left:50%;
     width: 500px;
 }
@@ -1160,7 +1202,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1230px;
+    /*top: 1230px;*/
+    top: 1240px;
     left:50%;
     width: 500px;
 }
@@ -1169,7 +1212,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 500px;
 }
@@ -1179,7 +1223,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1330px;
+    /*top: 1330px;*/
+    top: 1340px;
     left:50%;
     width: 500px;
 }
@@ -1188,7 +1233,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1380px;
+    /*top: 1380px;*/
+    top: 1390px;
     left:50%;
     width: 500px;
 }
@@ -1197,7 +1243,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1430px;
+    /*top: 1430px;*/
+    top: 1440px;
     left:50%;
     width: 500px;
 }
@@ -1206,7 +1253,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 450px;
 }
@@ -1215,7 +1263,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 400px;
 }
@@ -1224,7 +1273,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 350px;
 }
@@ -1233,7 +1283,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 300px;
 }
@@ -1242,7 +1293,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 250px;
 }
@@ -1251,7 +1303,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 200px;
 }
@@ -1260,7 +1313,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 150px;
 }
@@ -1269,7 +1323,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 1280px;
+    /*top: 1280px;*/
+    top: 1290px;
     left:50%;
     width: 100px;
 }
@@ -1278,7 +1333,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1330px;
+    /*top: 1330px;*/
+    top: 1340px;
     right:50%;
     width: 465px;
 }
@@ -1287,7 +1343,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1380px;
+    /*top: 1380px;*/
+    top: 1390px;
     right:50%;
     width: 465px;
 }
@@ -1296,7 +1353,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1430px;
+    /*top: 1430px;*/
+    top: 1440px;
     right:50%;
     width: 465px;
 }
@@ -1305,7 +1363,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1480px;
+    /*top: 1480px;*/
+    top: 1490px;
     right:50%;
     width: 465px;
 }
@@ -1314,7 +1373,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1530px;
+    /*top: 1530px;*/
+    top: 1540px;
     right:50%;
     width: 465px;
 }
@@ -1323,7 +1383,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1580px;
+    /*top: 1580px;*/
+    top: 1590px;
     right:50%;
     width: 465px;
 }
@@ -1332,7 +1393,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1630px;
+    /*top: 1630px;*/
+    top: 1640px;
     right:50%;
     width: 465px;
 }
@@ -1341,7 +1403,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1680px;
+    /*top: 1680px;*/
+    top: 1690px;
     right:50%;
     width: 465px;
 }
@@ -1350,7 +1413,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1730px;
+    /*top: 1730px;*/
+    top: 1740px;
     right:50%;
     width: 465px;
 }
@@ -1359,7 +1423,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1780px;
+    /*top: 1780px;*/
+    top: 1790px;
     right:50%;
     width: 465px;
 }
@@ -1368,7 +1433,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1835px;
+    /*top: 1835px;*/
+    top: 1845px;
     right:50%;
     width: 265px;
 }
@@ -1377,7 +1443,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1835px;
+    /*top: 1835px;*/
+    top: 1845px;
     right:50%;
     width: 215px;
 }
@@ -1386,7 +1453,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1835px;
+    /*top: 1835px;*/
+    top: 1845px;
     right:50%;
     width: 165px;
 }
@@ -1395,7 +1463,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1835px;
+    /*top: 1835px;*/
+    top: 1845px;
     right:50%;
     width: 115px;
 }
@@ -1404,7 +1473,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1835px;
+    /*top: 1835px;*/
+    top: 1845px;
     right:50%;
     width: 65px;
 }
@@ -1413,7 +1483,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1880px;
+    /*top: 1880px;*/
+    top: 1890px;
     right:50%;
     width: 465px;
 }
@@ -1422,7 +1493,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1930px;
+    /*top: 1930px;*/
+    top: 1940px;
     right:50%;
     width: 465px;
 }
@@ -1431,7 +1503,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 1980px;
+    /*top: 1980px;*/
+    top: 1990px;
     right:50%;
     width: 465px;
 }
@@ -1440,7 +1513,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2030px;
+    /*top: 2030px;*/
+    top: 2040px;
     right:50%;
     width: 465px;
 }
@@ -1449,7 +1523,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2080px;
+    /*top: 2080px;*/
+    top: 2090px;
     right:50%;
     width: 465px;
 }
@@ -1458,7 +1533,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2130px;
+    /*top: 2130px;*/
+    top: 2140px;
     right:50%;
     width: 465px;
 }
@@ -1467,7 +1543,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2180px;
+    /*top: 2190px;*/
+    top: 2190px;
     right:50%;
     width: 465px;
 }
@@ -1476,7 +1553,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2230px;
+    /*top: 2230px;*/
+    top: 2240px;
     right:50%;
     width: 465px;
 }
@@ -1485,7 +1563,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2280px;
+    /*top: 2280px;*/
+    top: 2290px;
     right:50%;
     width: 465px;
 }
@@ -1494,7 +1573,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2330px;
+    /*top: 2330px;*/
+    top: 2340px;
     right:50%;
     width: 465px;
 }
@@ -1503,7 +1583,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2380px;
+    /*top: 2380px;*/
+    top: 2390px;
     right:50%;
     width: 415px;
 }
@@ -1512,7 +1593,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2380px;
+    /*top: 2380px;*/
+    top: 2390px;
     right:50%;
     width: 365px;
 }
@@ -1528,7 +1610,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: right;
     position:absolute;
-    top: 715px;
+    /*top: 715px;*/
+    top: 725px;
     left:50%;
     width: 210px;
 }
@@ -1537,7 +1620,8 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: left;
     position:absolute;
-    top: 2370px;
+    /*top: 2370px;*/
+    top: 2380px;
     right:50%;
     width: 475px;
 }
