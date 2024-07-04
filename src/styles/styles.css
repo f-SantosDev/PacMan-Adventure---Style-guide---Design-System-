@@ -373,8 +373,7 @@ body::-webkit-scrollbar{
 .drawingPin__title__position{
     position: absolute;
     top: 145px;
-    left: 50%;
-    width: 80px;
+    width: 275px;
     text-align: right;
     z-index: 1;
 }
@@ -387,11 +386,10 @@ body::-webkit-scrollbar{
 .postItAdventure__position{
     position: absolute;
     top: 145px;
-    left: 50%;
-    width: 150px;
+    width: 355px;
     display: flex;
     justify-content: right;
-    z-index: 1;
+    z-index: 0;
 }
 
 .postItAdventure {
@@ -411,8 +409,7 @@ body::-webkit-scrollbar{
 .drawingPin__position{
     position: absolute;
     top: 495px;
-    left: 50%;
-    width: 430px;
+    width: 955px;
     text-align: right;
     z-index: 1;
 }
@@ -425,8 +422,7 @@ body::-webkit-scrollbar{
 .postIt__position{
     position: absolute;
     top: 490px;
-    left: 50%;
-    width: 500px;
+    width: 1015px;
     display: flex;
     justify-content: right;
     z-index: 1;
@@ -538,8 +534,8 @@ body::-webkit-scrollbar{
 .git__position{
     position:absolute;
     top: 640px;
-    left: 25%;
-    width: 250px;
+    left: auto;
+    width: 450px;
     z-index: 1;
     display: flex;
     justify-content: right;
@@ -696,6 +692,7 @@ body::-webkit-scrollbar{
     text-align: center;
     border: 2px solid rgb(0,0,0);
     border-radius: 30px 30px 5px 30px;
+    cursor: wait;
 }
 
 .packman__say p{
@@ -927,6 +924,9 @@ body::-webkit-scrollbar{
     }
     90% {
         transform: translateX(-10px) translatey(2600px);
+    }
+    95% {
+        transform: translatey(2600px);
     }
     100% {
         transform: translatey(2600px);
@@ -1725,4 +1725,3 @@ table {
     display: flex;
     justify-content: center;
 }
-
